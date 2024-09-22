@@ -14,8 +14,8 @@ Ensure you have the following installed on your system:
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/peppervikes/Vikalp_IBM_Task.git
+   cd Vikalp_IBM_Task
    ```
 
 2. **Install necessary packages:**
