@@ -71,6 +71,6 @@ npm run dev
 ```
 
 ### Final Look of the Website
+[![Video Title](https://img.youtube.com/vi/zXH1GnmXqpE/0.jpg)](https://www.youtube.com/watch?v=zXH1GnmXqpE)
 
-![Website Preview](https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/6e61b/MainAfter.avif)
 
