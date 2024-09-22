@@ -1,4 +1,4 @@
-# Vikalp IBM Task - Website Manager Project
+# Vikalp IBP Task - Website Manager Project
 
 ## Description
 This project is a simple website manager built with Express, MySQL, and EJS, allowing you to create and manage blog posts and handle contact form submissions.
