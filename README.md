@@ -1,46 +1,76 @@
-# Vikalp_IBM_Task
+# Vikalp IBM Task - Website Manager Project
 
+## Description
+This project is a simple website manager built with Express, MySQL, and EJS, allowing you to create and manage blog posts and handle contact form submissions.
 
-TO run the website 
-clone the repo 
+## Getting Started
 
+### Prerequisites
+Ensure you have the following installed on your system:
+- Node.js
+- MySQL
 
-run this on the terminal 
-    npm init -y
-    npm install express mysql ejs body-parser
-    npm install -D nodemon
+### Installation
 
-Create database
-CREATE DATABASE website_manager;
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
 
-Use the database
-USE website_manager;
+2. **Install necessary packages:**
+   ```bash
+   npm init -y
+   npm install express mysql ejs body-parser
+   npm install -D nodemon
+   ```
 
-Create blog_posts table
-CREATE TABLE blog_posts (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(255) NOT NULL,
-    content TEXT NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+### Database Setup
 
-Create contact_requests table
-CREATE TABLE contact_requests (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL,
-    message TEXT NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+1. **Create the database:**
+   ```sql
+   CREATE DATABASE website_manager;
+   ```
 
+2. **Use the database:**
+   ```sql
+   USE website_manager;
+   ```
 
-change user, password in server.js
+3. **Create the `blog_posts` table:**
+   ```sql
+   CREATE TABLE blog_posts (
+       id INT AUTO_INCREMENT PRIMARY KEY,
+       title VARCHAR(255) NOT NULL,
+       content TEXT NOT NULL,
+       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+   );
+   ```
 
+4. **Create the `contact_requests` table:**
+   ```sql
+   CREATE TABLE contact_requests (
+       id INT AUTO_INCREMENT PRIMARY KEY,
+       name VARCHAR(255) NOT NULL,
+       email VARCHAR(255) NOT NULL,
+       message TEXT NOT NULL,
+       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+   );
+   ```
 
-enter in the terminal 
-        npm run dev
-to start the website
+### Configuration
 
+1. Open the `server.js` file.
+2. Update the MySQL `user` and `password` with your own credentials.
 
-here are the final looks of the website 
-![alt text](https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/6e61b/MainAfter.avif)
+### Running the Application
+
+To start the website, run the following command in the terminal:
+```bash
+npm run dev
+```
+
+### Final Look of the Website
+
+![Website Preview](https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/6e61b/MainAfter.avif)
+
